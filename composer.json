@@ -1,5 +1,5 @@
 {
-    "name": "futura-web/envelope",
+    "name": "futura-web/contao_envelope",
     "description": "Simple HTML-wrapper for Contao CMS articles. Similar to slider || accordeon wrappers, but for static content.",
     "license": "proprietary",
     "type": "contao-bundle",
