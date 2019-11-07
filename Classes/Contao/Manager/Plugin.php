@@ -30,7 +30,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(\FuturaWeb\Envelope\EsitEnvelopeBundle::class)
+            BundleConfig::create(\FuturaWeb\Envelope\FuturaWebEnvelopeBundle::class)
                 ->setLoadAfter([\Contao\CoreBundle\ContaoCoreBundle::class])
         ];
     }
