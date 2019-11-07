@@ -1,0 +1,36 @@
+{
+    "name": "futuraweb/envelope",
+    "description": "Simple HTML-wrapper for Contao CMS articles. Similar to slider || accordeon wrappers, but for static content.",
+    "license": "proprietary",
+    "type": "contao-bundle",
+    "authors": [
+        {
+            "name": "Dinko Skopljak",
+            "email": "ds@futura-web.de",
+            "homepage": "http://futura-web.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "ds@futura-web.de"
+    },
+    "require": {
+        "php": ">=7.1",
+        "contao/core-bundle": "~4.4",
+        "contao/manager-bundle": "~4.4.0",
+        "contao/conflicts": "@dev"
+    },
+    "require-dev": {
+        "contao/test-case": "^3.0",
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FuturaWeb\\Envelope\\": ""
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "FuturaWeb\\Envelope\\Classes\\Contao\\Manager\\Plugin"
+    }
+}

@@ -1,0 +1,6 @@
+
+    </div>
+
+    <?php if ($this->closehashadline): ?>
+        </div>
+    <?php endif; ?>

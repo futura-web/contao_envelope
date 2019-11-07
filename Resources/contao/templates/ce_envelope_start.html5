@@ -1,0 +1,6 @@
+<?php if ($this->headline): ?>
+    <div class="<?php echo $this->class; ?>_headline block">
+        <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+<?php endif; ?>
+
+<div class="<?php echo $this->class; ?> block">
